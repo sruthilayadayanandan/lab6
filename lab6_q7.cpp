@@ -2,20 +2,20 @@
 #include <iostream>
 using namespace std;
 
-/*Write a user-defined function toUpper() that returns the uppercase of the inputChar received. Use call-by-value.*/
+/*Writing a user-defined function toUpper() that returns the uppercase of the inputChar received. Use call-by-value.*/
 	char toUpper (char x){
 		char y = char (int (x)-32);
 		return y;
 	}
 
-/*Write a user-defined function toLower() that returns the lowercase of the inputChar received. Use call-by-value.*/
+/*Writing a user-defined function toLower() that returns the lowercase of the inputChar received. Use call-by-value.*/
 
 	char toLower (char z){
 		char v= char (int (z)+32);
 		return v;
 	}
 
-/*Write a main program, that calls the above function based on the input of the user. If the user enters a lower case character, it should automatically detect it and call toUpper() and display the upper case value. */
+/*Writing a main program, that calls the above function based on the input of the user. If the user enters a lower case character, it should automatically detect it and call toUpper() and display the upper case value. */
 
 int main (){
 	char input;
