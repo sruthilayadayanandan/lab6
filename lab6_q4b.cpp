@@ -1,4 +1,4 @@
-//include library
+//including library
 #include<iostream>
 using namespace std;
 
@@ -23,7 +23,7 @@ int main()
 	cin>>a>>b;
 	//calling the minimuming function
 	mining(min,a,b);
-	//outputting
+	//output
 	cout<<"The smaller of the two numbers is:-"<<min<<endl;
 	return 0;
 }
