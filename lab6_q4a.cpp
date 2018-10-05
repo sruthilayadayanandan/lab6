@@ -1,4 +1,4 @@
-//include library
+//including library
 #include<iostream>
 using namespace std;
 
@@ -19,11 +19,11 @@ int main()
 {
 	//declaring variables
 	int a,b;
-	//asking for input
+	//ask for input
 	cout<<"enter the numbers:-"<<endl;
 	//taking input
 	cin>>a>>b;
-	//outputting
+	//output
 	cout<<"The smaller of the two numbers is:-"<<min(a, b)<<endl;
 	return 0;
 }
