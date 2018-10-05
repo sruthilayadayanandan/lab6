@@ -1,4 +1,4 @@
-//include library
+//including library
 #include<iostream>
 using namespace std;
 
@@ -7,7 +7,7 @@ void maxing(int&max ,int vr1, int vr2 )
 {
 	//finding the bigger number
 	if(vr1>vr2)
-	//putting the bigger variable  into the reference variable
+	//put the bigger variable  into the reference variable
 	{max=vr1;}
 	else
 	{max=vr2;}
