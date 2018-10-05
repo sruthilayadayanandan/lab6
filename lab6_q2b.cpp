@@ -1,11 +1,11 @@
-//Including the Library
+//Including Library
 #include<iostream>
 using namespace std;
 
-//Functions with parameters and reference parameter.
+// parameters and reference parameter functions
 void funcR(int a, int b ,int &c){
 
-//Giving the sum
+//Giving sum
 c=a+b;
 }
 
@@ -19,7 +19,7 @@ int p,q,sum;
 cout<< "The two numbers to give the sum: ";
 cin>>p>>q;
 
-//Call the arguments.
+//Calling the arguments.
 funcR(p,q,sum);
 		
 //Print the sum.
