@@ -1,8 +1,8 @@
-// Include library
+// using the library
 #include <iostream>
 using namespace std;
 
-/*Write a function that receives the unitCst, units, and taxRt and returns to the calling module the salesTx and totDue. Choose an appropriate name for this function.*/
+//function that receives the unitCst, units, and taxRt and returns to the calling module the salesTx and totDue. choosing an appropriate name for this function.*/
 
 	int value(int &unitCst,int &unit,int &taxRt){
 			cout<< "Give a value for the unit cost: "<<endl;
@@ -17,7 +17,7 @@ using namespace std;
 			cout<< "The tax rate is: " <<taxRt <<endl;
 		 
 	}
-/*Write a function that receives the unitCst, units, and taxRt and returns to the calling module the salesTx and totDue. Choose an appropriate name for this function.*/
+/*a function that receives the unitCst, units, and taxRt and returns to the calling module the salesTx and totDue. Choose an appropriate name for this function.*/
 
 	int calculation(int unitCst,int unit,int taxRt, int &salesTx, int &totDue)
 	{
@@ -26,7 +26,7 @@ using namespace std;
 		totDue=(unitCst*unit)+salesTx;
 	}
 	
-/*Write a main function with variables called unitCost, unitsPurch, taxRate, salesTax, and totalDue. Your program should call the functions listed above.*/
+/* a main function with variables called unitCost, unitsPurch, taxRate, salesTax, and totalDue. Your program should call the functions listed above.*/
 
 //main function
 	int main(){
