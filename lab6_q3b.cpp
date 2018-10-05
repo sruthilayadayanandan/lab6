@@ -22,9 +22,9 @@ int main()
 	cout<<"enter the numbers:-"<<endl;
 	//taking input
 	cin>>a>>b;
-	//calling the max function and giving max as reference variable
+	//call the max function and give max as reference variable
 	maxing(max,a,b);
-	//outputing
+	//output
 	cout<<"The bigger of the two numbers is:-"<<max<<endl;
 	return 0;
 }
