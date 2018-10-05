@@ -1,8 +1,8 @@
-//include library
+//including library
 #include<iostream>
 using namespace std;
 
-//the function for adding
+//function for sum
 int summing(int vr1, int vr2 )
 {
 
