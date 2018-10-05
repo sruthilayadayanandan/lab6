@@ -1,8 +1,8 @@
-//Include the library
+//using the library
 #include<iostream>
 using namespace std;
 
-//1.Write a function that outputs the sum of all even numbers between firstNum and secondNum. (use loop); create a user-defined function called sumEvenNumbers(). Use call-by-value.
+//1.function that outputs the sum of all even numbers between firstNum and secondNum using loop for creating a user-defined function called sumEvenNumbers(). Use call-by-value.
 
 int sumEvenNumbers (int firstNum, int secondNum, int sumEven) {
 	
@@ -18,7 +18,7 @@ int sumEvenNumbers (int firstNum, int secondNum, int sumEven) {
 
 
 
-/*2.Write a function that outputs the sum of all odd numbers between firstNum and secondNum. (use loop); create a user-defined function called sumOddNumbers(). Use call-by-value*/
+/*2. function that outputs the sum of all odd numbers between firstNum and secondNum. using loop; creating a user-defined function called sumOddNumbers(). Use call-by-value*/
 
 
 
@@ -36,7 +36,7 @@ int sumOddNumbers (int firstNum, int secondNum, int sumOdd) {
 
 
 
-/*3.Write a function that outputs the sum of the square of the odd numbers between firstNum and secondNum. (use while loop); create a user-defined function called sumSquareOddNumbers(). Use Call-by-Value. */
+/*3.function that outputs the sum of the square of the odd numbers between firstNum and secondNum. (use while loop); create a user-defined function called sumSquareOddNumbers(). Use Call-by-Value. */
 
 int sumSquareOddNumbers (int firstNum, int secondNum, int sumSqOdd) {
 	
@@ -51,7 +51,7 @@ int sumSquareOddNumbers (int firstNum, int secondNum, int sumSqOdd) {
 }
 
 
-/*4.Write a function that outputs the sum of the square of the odd numbers between firstNum and secondNum. (use while loop); create a user-defined function called sumSquareEvenNumbers(). Use Call-by-Value. */
+/*4.function that outputs the sum of the square of the odd numbers between firstNum and secondNum. (use while loop); create a user-defined function called sumSquareEvenNumbers(). Use Call-by-Value. */
 
 int sumSquareEvenNumbers (int firstNum, int secondNum, int sumSqEven) {
 	
