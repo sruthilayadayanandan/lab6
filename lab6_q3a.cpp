@@ -1,4 +1,4 @@
-//include library
+//including library
 #include<iostream>
 using namespace std;
 
@@ -12,7 +12,7 @@ int max(int vr1, int vr2 )
 	{big=vr1;}
 	else
 	{big=vr2;}
-	//returning the bigger variable
+	//return the bigger variable
 	return big;
 }
 //using the main function
